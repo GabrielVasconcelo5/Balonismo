@@ -2,7 +2,11 @@ public class Piloto {
 
     String nome;
     String cpf;
-    String numRegis;
+    String numRegist;
 
-    public String pilotar() { return "pilotando";}
+   Piloto (String _nome, String _cpf, String _numRegist){
+       this.nome = _nome;
+       this.cpf = _cpf;
+       this.numRegist = _numRegist;
+   }
 }

@@ -3,7 +3,7 @@ public class Main {
 
         Balao b1 = new Balao();
         Pessoa pessoa = new Pessoa("Gabriel", "30", "40", "9", "9", "40", "50");
-        Piloto piloto = new Piloto();
+        Piloto piloto = new Piloto("Arnold", "20", "10");
 
         String resultado = b1.voar();
         System.out.println(resultado);
